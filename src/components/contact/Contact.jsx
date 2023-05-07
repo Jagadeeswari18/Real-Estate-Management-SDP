@@ -1,0 +1,47 @@
+import React from "react"
+import img from "../images/pricing.jpg"
+import Back from "../common/Back"
+import "./contact.css"
+
+const Contact = () => {
+  return (
+    <>
+      <section className='contact mb'>
+        
+        
+        <Back name='Contact Us' title='Get Help & Friendly Support' cover={img} />
+        
+      </section>
+      <div className='container'>
+          <form className='shadow'>
+            <h4>Fillup The Form</h4> <br />
+            <div>
+              <input type='text' placeholder='Name' />
+              <input type='text' placeholder='Email' />
+            </div>
+            <input type='text' placeholder='Subject' />
+            <input type='text' placeholder='Please mention your queries here!!' />
+            <textarea cols='30' rows='10'></textarea>
+            <button>Submit Request</button>
+          </form>
+        </div>
+      
+    </>
+  )
+}
+
+export default Contact
+/*
+<div className='container'>
+          <form className='shadow'>
+            <h4>Fillup The Form</h4> <br />
+            <div>
+              <input type='text' placeholder='Name' />
+              <input type='text' placeholder='Email' />
+            </div>
+            <input type='text' placeholder='Subject' />
+            <textarea cols='30' rows='10'></textarea>
+            <button>Submit Request</button>
+          </form>
+        </div>
+        */
